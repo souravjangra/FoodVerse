@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023971407929",
+    "firebase_url": "https://foodverse-239e0.firebaseio.com",
+    "project_id": "foodverse-239e0",
+    "storage_bucket": "foodverse-239e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023971407929:android:959bebcf21e85bf980f5e8",
+        "android_client_info": {
+          "package_name": "com.busyarrow.foodverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023971407929-0lijv5ogupu0ac0mtvt1oh3j25k81d15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.busyarrow.foodverse",
+            "certificate_hash": "4ffe48e12b5885b1621cffbb7f9f4f3910ffcc39"
+          }
+        },
+        {
+          "client_id": "1023971407929-pbp4trcis0bu6nqeekk50a249fdb706a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATbKycpPrmvPWoXlDrKZSuJlwEp62blWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023971407929-pbp4trcis0bu6nqeekk50a249fdb706a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
