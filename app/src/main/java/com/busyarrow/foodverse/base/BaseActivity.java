@@ -27,6 +27,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(layoutRes());
         setupUi(findViewById(layoutId()));
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         try {
             Log.d(TAG, "onCreate: activity is " + currentActivity());
             currentActivity = currentActivity();

@@ -6,7 +6,11 @@
 
     <color name="appColor">#00DB3B</color>
     <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
     <color name="gray">#EFEFEF</color>
+    <color name="gray2">#C9C9C9</color>
+    <color name="dark_gray">#333333</color>
+    <color name="black">#000000</color>
 
     <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
 

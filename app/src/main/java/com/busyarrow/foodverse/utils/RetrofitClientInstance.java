@@ -9,7 +9,7 @@ public class RetrofitClientInstance {
 
     public static Retrofit retrofit = null;
 
-    public Retrofit getRetrofitClientInstance() {
+    public static Retrofit getRetrofitClientInstance() {
         retrofit = new Retrofit.Builder()
                 .baseUrl(BaseUrl.BASE_URL_DEV)
                 .addConverterFactory(GsonConverterFactory.create())

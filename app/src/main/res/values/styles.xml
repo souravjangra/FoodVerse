@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="EditTextOutlineRounded" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="EditTextOutlineRounded" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="shapeAppearanceOverlay">
             @style/ShapeAppearanceOverlay.FoodVerse.TextInputLayout.Rounded
         </item>
@@ -16,6 +16,16 @@
     <style name="ShapeAppearanceOverlay.FoodVerse.TextInputLayout.Rounded" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="hint_text_appearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">
+            @drawable/splash_screen_background
+        </item>
     </style>
 
 </resources>
