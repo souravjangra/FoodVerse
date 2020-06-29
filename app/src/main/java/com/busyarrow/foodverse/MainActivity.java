@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.busyarrow.foodverse.activities.SigninActivity;
 import com.busyarrow.foodverse.activities.SignupActivity;
 import com.busyarrow.foodverse.base.BaseActivity;
+import com.busyarrow.foodverse.fragments.DashboardFragment;
 import com.busyarrow.foodverse.fragments.LocationSelectFragment;
 import com.google.android.gms.common.api.Status;
 import com.google.android.libraries.places.api.Places;
@@ -55,10 +56,16 @@ public class MainActivity extends BaseActivity {
 
         getSupportActionBar().hide();
 
+//        FragmentManager fm = getSupportFragmentManager();
+//        FragmentTransaction ft = fm.beginTransaction();
+//        LocationSelectFragment locationSelectFragment = new LocationSelectFragment();
+//        ft.add(R.id.parent_main, locationSelectFragment);
+//        ft.commit();
+
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-        LocationSelectFragment locationSelectFragment = new LocationSelectFragment();
-        ft.add(R.id.parent_main, locationSelectFragment);
+        DashboardFragment dashboardFragment = new DashboardFragment();
+        ft.add(R.id.parent_main, dashboardFragment);
         ft.commit();
 
 //        loginBtn = findViewById(R.id.loginBtn);
